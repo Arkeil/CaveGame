@@ -6,7 +6,7 @@ void mainMenu() {
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
 	system("cls");
-	SetConsoleTextAttribute(hConsole, 61);
+	SetConsoleTextAttribute(hConsole, 3);
 	cout << "--------------------------" << endl;
 	cout << "*     Witaj w grze !     *" << endl;
 	cout << "*        CaveGame        *" << endl;
