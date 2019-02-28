@@ -22,6 +22,20 @@ void fileManager() {
 
 }
 
+void gameSaver(int a) {
+
+	if (a == 1) { // Wykonanie odczytu zapisu
+
+	}
+	else if (a == 2) { // Wykonanie zapisu gry
+
+	}
+	else { // B³¹d
+
+	}
+
+}
+
 void menuBridge() {
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
